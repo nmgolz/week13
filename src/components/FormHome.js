@@ -1,6 +1,7 @@
 import React from 'react'
 import UserName from './UserName'
 import Password from './Password'
+import NavButton from './NavButton'
 
 function FormHome() {
   return (
@@ -12,6 +13,7 @@ function FormHome() {
             <div className='card-body bg-info text-dark'>
             <UserName />
             <Password />
+            <NavButton title="login"/>
             </div>
         </div>
     </div>
